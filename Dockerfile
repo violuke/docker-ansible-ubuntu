@@ -12,4 +12,5 @@ RUN apt-get update -y && \
   software-properties-common \
   ansible \
   python-netaddr \
-  whois
+  whois \
+  rsync
