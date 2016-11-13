@@ -10,7 +10,7 @@ RUN apt-add-repository -y ppa:ansible/ansible
 RUN apt-get update -y && \
   DEBIAN_FRONTEND=noninteractive apt-get install -y \
   software-properties-common \
-  ansible=2.2.0.0-1 \
+  ansible \
   python-netaddr \
   whois \
   rsync
